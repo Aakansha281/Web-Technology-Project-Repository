@@ -1,0 +1,173 @@
+<html lang="en" dir="ltr">
+  <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Log In Page</title>
+		<link class="icon_travel" rel="icon" href="images/icon_travel.svg">
+		<link href="https://fonts.googleapis.com/css2?family=Alice&family=Pacifico&family=Patua+One&family=Vollkorn&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+
+		<!-- CSS Stylesheets -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		
+		
+		<link rel="stylesheet" href="css/login_page.css">
+		<link rel="JavaScript" href="script/script.js">
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+		
+		<style type="text/css">
+		
+		.box
+		{
+			background-image:url('letsgotravel.jpg');
+			width:490px;
+			height:550px;
+			margin-left:80px;
+			margin-top:100px;
+			border-radius:2%;
+			
+			float:left;
+		}
+		
+		body{
+			background-image:url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&w=1000&q=80");
+			width:100%;
+			height:736px;
+			background-repeat:no-repeat;
+			background-size:cover;
+			position:absolute;
+		}
+		
+		
+		
+		
+		.tf {
+				font-family: 'Pacifico', cursive;
+				font-size: 50px !important;
+				color: black;
+				font-weight:bold;
+				text-align:left;
+				padding-left:15px;
+				float:left;
+		}
+		
+		.world
+		{
+			height:100px;
+			
+		}
+		
+		form {
+			  background:rgba(0,0,0,.1);
+			  width:800px;
+			  height:550px;
+			  border: 1px solid #888;
+			  border-radius:2%;
+			  margin-top:100px;
+			  float:right;
+			  margin-right:100px;
+			  padding-left:50px;
+			  padding-top:30px;
+			  position:relative;
+  
+		}
+		
+		.log{
+				font-family: 'Aclonica', sans-serif;
+				font-size: 50px !important;
+				color: black;
+				font-weight:bold;
+				text-align:left;
+		}
+
+		.btn
+		{
+			margin-top:60px;
+			background-color:#1BF0D4;
+			font-weight:bold;
+			font-size:25px;
+			color:white;
+			border: px solid black;
+			
+		}
+		
+		btn:hover {
+			opacity: 0.8;
+			}
+		
+		
+		
+		
+		
+		
+		label
+		{
+			color:white;
+			font-size:24px;
+			
+		}
+		
+			
+		
+		input[type=email], input[type=password] {
+			  width: 200px;
+			  padding: 12px 20px;
+			  margin: 8px 0;
+			  display: inline-block;
+			  border: 1px solid #ccc;
+			  box-sizing: border-box;
+			  background:rgba(0,0,0,.1);
+			  color:white;
+			  font-size:15px;
+			  font-weight:bold;
+		}
+		
+		.font
+		{
+			font-family: 'Aclonica', sans-serif;
+		}
+		</style>
+		
+	</head>
+	
+	<body>
+	
+		<div class="box">
+		
+			<div class="tf">Travel Forum
+			<img class="world" src="icon_travel.svg">
+			</div>
+			
+		</div>
+		
+			<form action="/log_in" method="POST">
+				  <div class="form-group">
+					<p class="log">Log In</p>
+					<br>
+					<label for="exampleInputEmail1"  class="font">E-mail</label><br>
+					<input type="email" class="form-control" name="login_email" id="exampleInputEmail1" placeholder="Email"><br><br>
+					<label for="exampleInputPassword1"  class="font">Password</label><br>
+					<input type="password" class="form-control" name="login_password" id="exampleInputPassword1" placeholder="Password"><br>	
+					<br>
+					<p class="font"><input type="checkbox">  Remember Me</p>
+					
+					<br>
+					<button type="submit" class="btn btn-default">Log In</button>
+				  </div>
+				  
+				  
+			</form>
+		
+		
+	</body>
+</html>
