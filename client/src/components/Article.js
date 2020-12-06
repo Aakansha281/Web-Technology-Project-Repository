@@ -17,7 +17,7 @@ useEffect(() =>{
     <img src={`/uploads/${fileName}`} alt="..." style={{margin:"1rem auto",width:"40rem", height:"30rem", display:"flex"}}></img>
 
     <p>{article}</p><p className="badge badge-secondary">{authorname}</p><hr/><br/>
-  <Link to="/">  <button type="submit"  class="btn btn-success">Back To home</button></Link>
+  <Link to="/articles">  <button type="submit"  class="btn btn-success">Back To home</button></Link>
 
     </MainContainer>
 
