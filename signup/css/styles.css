@@ -1,0 +1,165 @@
+#title{
+  background-color: #ddf3f5;
+}
+.bg-img{
+  background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&w=1000&q=80");
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+.container-fluid{
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+.traveling
+{
+  width: 9%;
+}
+
+.navbar{
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: -15px;
+  margin: -10px;
+  background: none;
+  padding-top: 0px;
+  z-index: 500;
+  overflow: hidden;
+  top: 0 !important;
+
+}
+
+.tf {
+  font-family: 'Pacifico', cursive;
+  font-size: 50px !important;
+  color: black;
+}
+
+
+.nav-item{
+  float: right;
+    padding: 0 18px;
+
+    color: black;
+    font-weight: bold;
+      font-family: 'Alice', serif;
+}
+.nav-link{
+  font-size: 1.8rem;
+  padding-right: 30px;
+  padding-top: 10px;
+  margin-right: 15px;
+}
+
+.btn{
+  margin-right: 10px;
+}
+.
+.main {
+  margin-top: 100px; /* Add a top margin to avoid content overlay */
+  text-align: center;
+
+}
+.big-heading{
+  text-align: center;
+  position: relative;
+  top:250px;
+  font-family: 'Alice', serif;
+  font-size: 75px;
+
+
+}
+.continents{
+
+  width:55%;
+  margin-left: 340px;
+  position: relative;
+  top: 300px;
+
+
+}
+body{
+  overflow: auto !important;
+  margin: -30px !important;
+  padding: -10px !important;
+}
+.sign{
+  width:20%;
+  margin-left: 590px;
+  position: relative;
+  top: 330px;
+}
+.btn-dark:hover{
+    color: white !important;
+}
+.btn-outline-dark
+{
+  font-weight: bold !important;
+  font-family: 'Alice', serif;
+  font-size: 50px;
+}
+.btn-outline-dark:hover{
+
+  color: white !important;
+}
+
+.down{
+  width: 5%;
+  margin-left: 670px;
+  margin-top: 400px;
+}
+.aboutimg
+{
+  height: 500px;
+  width=25%;
+}
+#features{
+  font-weight: bold !important;
+  font-family: 'Alice', serif;
+  font-size: 50px;
+  text-align: center;
+
+}
+.comments{
+  width: 50%;
+  height: 30%;
+}
+.fe{
+  padding: 9px;
+  font-size: 65px;
+}
+#end{
+  font-weight: bold !important;
+  font-family: 'Alice', serif;
+  font-size: 50px;
+  text-align: center;
+  background-color: #b2b1b4;
+  padding-bottom: 20px;
+}
+.travelicon{
+  height: 70px;
+  width: 160px;
+}
+.endbutton
+{
+  margin-top: 19px;
+}
+.endhead{
+  font-size: 45px;
+  padding: 5px;
+}
+#footer{
+
+  font-family: 'Alice', serif;
+  margin-top: 30px;
+  text-align: center;
+  padding: 3px;
+}
+.social-icon{
+  margin: 5px;
+}
